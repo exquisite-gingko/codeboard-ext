@@ -1,10 +1,10 @@
 (function () {
   'use strict';
 
-  describe('Give it some context', function () {
-    describe('maybe a bit more context here', function () {
-      it('should run here few assertions', function () {
-
+  describe('Whiteboard.js functions', function () {
+    describe('loadExisting', function () {
+      it('should have a loadExisting method', function () {
+        
       });
     });
   });
