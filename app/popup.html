@@ -10,10 +10,6 @@
     <div class='container' ng-controller='HomeCtrl as vm'>
       <div class='row'>
         <h5 class='twelve columns'>Create new board</h4>
-        <!-- <form class='twelve columns' ng-submit='vm.loadNew()'>
-          <input class='button twelve columns' type='submit' value='Create'>
-        </form> -->
-        <button class="twelve columns" ng-click="vm.loadNew()" ng-hide='true'>Create</button>
         <button class="twelve columns" ng-click="vm.loadNew()">Create</button>
       </div>
       <div class='row'>
@@ -30,6 +26,5 @@
   <!-- js injection -->
   <script src="scripts/deps/angular.min.js"></script>
   <script src='scripts/client/whiteboard.js'></script>
-
 
 </html>
