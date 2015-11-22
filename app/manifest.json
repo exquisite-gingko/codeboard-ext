@@ -4,8 +4,8 @@
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "icons": {
-    "16": "images/icon-16.png",
-    "128": "images/icon-128.png"
+    "16": "images/Very-Basic-Code-icon.png",
+    "128": "images/Very-Basic-Code-icon.png"
   },
   "default_locale": "en",
   "background": {
@@ -43,14 +43,11 @@
     "keyword": "OMNIBOX-KEYWORD"
   },
   "browser_action": {
-    "default_icon": {
-      "19": "images/icon-19.png",
-      "38": "images/icon-38.png"
-    },
+    "default_icon": "images/115090-magic-marker-icon-business-pencil7-sc49.png",
     "default_title": "CodeBoard",
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-    "images/icon-48.png"
+    "images/115090-magic-marker-icon-business-pencil7-sc49.png"
   ]
 }
